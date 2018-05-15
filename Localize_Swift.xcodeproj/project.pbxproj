@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0087030820AB087C008BF606 /* String+LocalizeAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087030720AB087C008BF606 /* String+LocalizeAttributed.swift */; };
+		0087030920AB0883008BF606 /* String+LocalizeAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087030720AB087C008BF606 /* String+LocalizeAttributed.swift */; };
+		0087030A20AB0883008BF606 /* String+LocalizeAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087030720AB087C008BF606 /* String+LocalizeAttributed.swift */; };
+		0087030B20AB0883008BF606 /* String+LocalizeAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0087030720AB087C008BF606 /* String+LocalizeAttributed.swift */; };
 		3433F2411C518AF7003AE34D /* Localize_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3433F2361C518AF7003AE34D /* Localize_Swift.framework */; };
 		3433F2461C518AF7003AE34D /* Localize_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433F2451C518AF7003AE34D /* Localize_SwiftTests.swift */; };
 		3433F2521C518B38003AE34D /* Localize_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3433F2501C518B38003AE34D /* Localize_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0087030720AB087C008BF606 /* String+LocalizeAttributed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+LocalizeAttributed.swift"; path = "Sources/String+LocalizeAttributed.swift"; sourceTree = SOURCE_ROOT; };
 		3433F2361C518AF7003AE34D /* Localize_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Localize_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3433F23B1C518AF7003AE34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3433F2401C518AF7003AE34D /* Localize_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Localize_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,13 +135,14 @@
 		3433F2381C518AF7003AE34D /* Localize_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				344169461C67539300B93D28 /* Foundation.framework */,
 				3433F2501C518B38003AE34D /* Localize_Swift.h */,
+				3433F23B1C518AF7003AE34D /* Info.plist */,
 				3433F2511C518B38003AE34D /* Localize.swift */,
-				68A520031DA6D5FD00F43D9E /* String+LocalizeTableName.swift */,
+				0087030720AB087C008BF606 /* String+LocalizeAttributed.swift */,
 				68973D651DA7AA200076F08A /* String+LocalizeBundle.swift */,
 				68973D6A1DA7AB140076F08A /* String+LocalizedBundleTableName.swift */,
-				3433F23B1C518AF7003AE34D /* Info.plist */,
-				344169461C67539300B93D28 /* Foundation.framework */,
+				68A520031DA6D5FD00F43D9E /* String+LocalizeTableName.swift */,
 			);
 			path = Localize_Swift;
 			sourceTree = "<group>";
@@ -285,7 +291,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Roy Marmelstein";
 				TargetAttributes = {
 					3433F2351C518AF7003AE34D = {
@@ -365,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0087030820AB087C008BF606 /* String+LocalizeAttributed.swift in Sources */,
 				68973D6B1DA7AB140076F08A /* String+LocalizedBundleTableName.swift in Sources */,
 				68973D661DA7AA200076F08A /* String+LocalizeBundle.swift in Sources */,
 				3433F2531C518B38003AE34D /* Localize.swift in Sources */,
@@ -384,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0087030920AB0883008BF606 /* String+LocalizeAttributed.swift in Sources */,
 				68973D6C1DA7AB140076F08A /* String+LocalizedBundleTableName.swift in Sources */,
 				68973D671DA7AA200076F08A /* String+LocalizeBundle.swift in Sources */,
 				343A6DD11D1529560081AA37 /* Localize.swift in Sources */,
@@ -395,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0087030A20AB0883008BF606 /* String+LocalizeAttributed.swift in Sources */,
 				68973D6D1DA7AB140076F08A /* String+LocalizedBundleTableName.swift in Sources */,
 				68973D681DA7AA200076F08A /* String+LocalizeBundle.swift in Sources */,
 				343A6DDF1D152B1B0081AA37 /* Localize.swift in Sources */,
@@ -406,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0087030B20AB0883008BF606 /* String+LocalizeAttributed.swift in Sources */,
 				68973D6E1DA7AB140076F08A /* String+LocalizedBundleTableName.swift in Sources */,
 				68973D691DA7AA200076F08A /* String+LocalizeBundle.swift in Sources */,
 				343A6DEC1D152E5A0081AA37 /* Localize.swift in Sources */,
@@ -436,12 +446,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -493,12 +505,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
